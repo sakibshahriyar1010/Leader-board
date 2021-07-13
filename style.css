@@ -217,3 +217,43 @@ nav ul{
 
 /* moibile display */
 
+@media only screen and (max-width:688px) {
+    
+    .container{
+        width: 100%;
+        
+    }
+    .players,.blogs,.courses{
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+
+    .courses{
+        text-align: center;
+    }
+
+    .course{
+        margin-bottom: 15px;
+    }
+
+    .course-info{
+        flex-direction: column;
+    }
+
+    .section-title{
+        text-align: center;
+    }
+
+}
+
+ /* tabtal display */
+  @media only screen and (min-width:668px) and (max-width:992px) {
+      
+    .container{
+        max-width: 100%;
+    }
+
+
+  }
